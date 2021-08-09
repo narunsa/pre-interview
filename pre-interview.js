@@ -8,9 +8,9 @@ const myArray2 = [1, 2, 3, 4, 5, 6];
 const getPairNumber = (sum, array) => {
   console.log("Pair number of", array);
   const pairArray = [];
-  for (const num of myArray2) {
+  for (const num of array) {
     const findNumber = sum - num;
-    if (myArray2.includes(findNumber)) {
+    if (array.includes(findNumber)) {
       if (!pairArray.includes(findNumber) && !pairArray.includes(num)) {
         pairArray.push(num, findNumber);
         console.log(num, "+", findNumber);
