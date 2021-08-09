@@ -6,7 +6,7 @@ const getMaxNumber = () => {
 
 const myArray2 = [1, 2, 3, 4, 5, 6];
 const getPairNumber = (sum, array) => {
-  console.log("Pair number of", myArray2);
+  console.log("Pair number of", array);
   const pairArray = [];
   for (const num of myArray2) {
     const findNumber = sum - num;
